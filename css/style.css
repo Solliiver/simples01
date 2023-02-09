@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/test.jpg);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style-type: nond;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #ec4e83;
+    transition: .3s;
+}
+
+nav .user{
+    color: white;
+}
+
+.logo{
+    color: #ec4e83;
+    font-size: 18px;
+    margin: 0px -100px;
+}
+
+.main{
+	display: flex;
+	align-items: center;
+}
+.main a{
+	margin-right: 25px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
+	transition: all .50s ease;
+}
+.main a:hover{
+	color: #ec4e83;
+	
+}
+
+.textocabeçalho small{
+	position: absolute;
+	left: 180px;
+	top: 260px;
+	color: #ec4e83;
+    font-size: 20px;
+}
+
+.textocabeçalho h1{
+    position: absolute;
+	left: 180px;
+	top: 280px;
+	color: #f0f5fb;
+    font-size: 70px;
+}
+
+.textocabeçalho h2{
+    position: absolute;
+	left: 180px;
+	top: 370px;
+	color: #ec82a5;
+    font-size: 15px;
+}
+
+.btn-01 {
+    position: absolute;
+    left: 210px;
+	top: 480px;
+    color: #f0f5fb;
+    background: 0 0;
+    border-radius: 14px;
+    border-color: #ec4e83;
+    padding: 16px;
+    width: 168px;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-01:hover{
+    color: #ec4e83;
+    background-color: #f0f5fb;
+    border: none;
+    text-shadow: 2px 2px #00000031;
+    transition: .5s;
+}
+
+
+
+.btn-02 {
+    position: absolute;
+    left: 450px;
+	top: 480px;
+    color: #f0f5fb;
+    background: none;
+    cursor: pointer;
+    border-radius: 14px;
+    border-color: #704eec;
+    padding: 16px;
+    width: 168px;
+    font-size: 15px;
+    color: #f0f5fb;    
+}
+
+.btn-02 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-02:hover{
+    color: #f0f5fb;
+    background-color: #704eec;
+    border: none;
+    transition: .5s;
+}
+
+.logoserv{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    display: flex;
+}
+
+.logoserv img:hover {
+    
+    transition: .3s;
+}
