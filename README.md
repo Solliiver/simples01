@@ -1,4 +1,3 @@
-# simples01
-## Hensa Dev.
-Obrigado por usar nosso produto!! Volte sempre.
-Qualquer duvida nosso discord esta para você :)
+#Site Simples Fivem Server -01
+Utilize esse site para você que quer algo diferente e simples para seu projeto de fivem.
+Projeto feito para pessoas MINIMALISTAS/SIMPLISTA
